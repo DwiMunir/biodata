@@ -244,13 +244,13 @@ body{
 
 @media only screen and (max-width: 900px) {
   .body{
-    margin-bottom: 8%;
+    margin-bottom: 10vw;
   }
   .wrapper{
     height: 30vw;
   }
   .main-wrap{
-    top: 30%;
+    top: 10vw;
   }
   .main{
     height: 35vw;
@@ -303,10 +303,13 @@ body{
 }
 @media only screen and (max-width: 680px) {
   .body{
-    margin-bottom: 15%;
+    margin-bottom: 10vw;
   }
   .main-wrap{
-    top: 25%;
+    top: 8vw;
+  }
+  .info::before{
+    width: 17%;
   }
   .main{
     height: 40vw;
@@ -359,61 +362,81 @@ body{
 }
 @media only screen and (max-width: 480px) {
   .body{
-    margin-bottom: 15%;
+    margin-bottom: 20vw;
   }
   .info::before{
     width: 0;
   }
-  .main-wrap{
-    top: 15%;
-  }
   .main{
-    height: 40vw;
+    height: 50vw;
+    width: 95%;
   }
   .name{
-    font-size: 3.3vw;
+    font-size: 3.6vw;
+    line-height: 6vw;
   }
   .medsos{
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
   .med{
-    width: 10%;
+    width: 15%;
+    margin-top: 2vw;
   }
   .med img{
-    width: 4.5vw;
+    width: 8vw;
   }
   .foto img{
-    top: -1vw;
-    right: 0;
+    width: 150%;
+    top: -15vw;
+    right: -10vw;
   }
   .keterangan{
-    height: 35vw;
+    width: 95%;
+    height: 50vw;
     padding: 0;
   }
   .left, .right{
-    height: 35vw;
+    height: 50vw;
   }
-  .right h1{
-    font-size: 3vw;
-  }
-  .right h1::before{
-    height: 4.8vw;
+  .left{
     width: 15%;
   }
+  .left .icon img{
+    width: 10vw;
+  }
+  .right{
+    width: 78%;
+  }
+  .right h1{
+    font-size: 4.5vw;
+    margin-bottom: 5vw;
+  }
+  .right h1::before{
+    height: 7.5vw;
+    width: 25%;
+  }
   .right p{
-    font-size: 2.5vw;
-    line-height: 2.8vw;
+    font-size: 3vw;
+    line-height: 4vw;
   }
   .right span{
-    font-size: 2.4vw;
-    line-height: 2.8vw;
-    margin-right: 5%;
+    font-size: 3.3vw;
+    line-height: 4vw;
+  }
+  .right .inf  span:first-child{
+    margin-right: 8%;
   }
   .skl span{
-    width: 25%;
-    line-height: 3vw;
-    font-size: 2.2vw;
-    height: 4vw;
-    line-height: 4vw;
+    width: 26%;
+    font-size: 2.5vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-weight: 600;
+  }
+  .left .icon{
+    transition: 0;
+  }
+  .left .icon:hover{
+    box-shadow: 0 0 0 transparent;
   }
 }
